@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+/**
+ * state的简写
+ */
 export default class App6 extends Component {
     state = {
         name: "你好"

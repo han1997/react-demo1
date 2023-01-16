@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import './common.css'
 
+/**
+ * 实现累加的效果
+ */
 export default class App7 extends Component {
     state = {
         num: 0
@@ -20,6 +23,9 @@ export default class App7 extends Component {
     }
 }
 
+/**
+ * 实现tab栏效果
+ */
 export class App7_1 extends Component {
     state = {
         arr: ['新闻', '体育', '知识'],

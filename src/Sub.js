@@ -1,5 +1,9 @@
 import React from 'react'
 
+/**
+ * 父子传参
+ * @returns 函数式组件 + 子传父参数
+ */
 export default function Sub() {
     const fn = function (fn) {
         console.log("fn: ", fn);

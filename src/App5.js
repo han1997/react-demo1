@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+// 1、实现点击弹框效果(事件基本格式)
 export default class App5 extends Component {
     handlerClick() {
         alert("123")
@@ -14,6 +15,7 @@ export default class App5 extends Component {
     }
 }
 
+// 2、实现累加的功能 (状态state的使用1)
 export class App4 extends Component {
     constructor(props) {
         super(props)
@@ -39,6 +41,7 @@ export class App4 extends Component {
 
 }
 
+// 3、实现双向数据绑定 (状态的使用2)
 export class App5_1 extends Component {
     constructor(p) {
         super(p)
